@@ -64,7 +64,7 @@ public class House extends Asset {
             value = 80.00 * squareFoot;
         }
 
-        value += .25 * squareFoot;
+        value += .25 * lotSize;
 
         return value;
     }

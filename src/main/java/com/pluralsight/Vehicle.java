@@ -51,8 +51,7 @@ public class Vehicle extends  Asset{
             value -= 1000;
         }
 
-        if (!makeModel.equalsIgnoreCase("honda") &&
-                !makeModel.equalsIgnoreCase("toyota")) {
+        if (!makeModel.equalsIgnoreCase("honda") && !makeModel.equalsIgnoreCase("toyota")) {
             if (odometer > 100000){
                 value -= value * .25;
             }
